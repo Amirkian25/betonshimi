@@ -1,0 +1,89 @@
+a{
+    color: #fff !important;
+    text-align: right !important;
+
+}
+.nav {
+    background-color: #000 !important;
+    border: none !important;
+    margin-left: 20px !important;
+}
+.nav button{
+    width: 40px !important;
+    border: none !important;
+    padding: 0 !important;
+}
+.nav button span{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+}
+.toggle{
+    font-size: 20px !important;
+    font-weight: bold;
+    padding-right: 0px !important;
+   
+    
+    
+}
+
+.toggle a{
+    padding-right: 10px !important;
+    font-size: 19px !important;
+    padding: 15px 20px !important ;
+}
+.toggle:hover{
+    background-color: #FA983A;
+    border-radius: 5px;
+
+}
+
+.toggle a::after {
+    vertical-align: 0 !important;
+    margin-right: 9px !important;
+
+}
+.closeButton{
+    background-color: #000 !important;
+    padding: 20px !important;
+}
+.closeButton button {
+   background-color: #fff !important;
+   margin-right:20px !important;
+   margin-top: 20px !important;
+
+}
+.link {
+    font-size: 20px !important;
+    padding:8px 10px 8px 0  !important;
+}
+.link:hover{
+    background-color: #FA983A;
+    border-radius: 5px;
+}
+.toggle div{
+    background-color: #000 !important;
+    inset:-2px auto 0px !important;
+    transform: 0 !important;
+    right: 0;
+    padding: 0 !important;
+   
+}
+.toggle div a{
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    padding: 8px 20px !important;
+
+}
+.toggle div a:hover{
+    background-color: #FA983A !important;
+    
+
+}
+.sub div{
+    background-color: #000 !important;
+    inset:-44px auto auto !important;
+    transform: translate(0px, 42px) !important;
+    right: 100% !important;
+    
+}

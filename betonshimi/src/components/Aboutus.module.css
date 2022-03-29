@@ -1,0 +1,49 @@
+.main{
+    
+    margin-bottom: 75px;
+}
+.img{
+    width: 100%;
+    min-height: 50vh;
+    
+    display: flex;
+    justify-content: center;  
+}
+.img img{
+    
+    margin: 0 auto;
+    width: 620px;
+    border-radius: 10px;
+
+}
+.about{
+    width: 80%;
+    height: auto;
+    box-shadow: 6px 10px 40px #e7e7e7,
+    -6px -10px 40px #e7e7e7;
+    margin: 20px auto;
+    
+}
+
+    
+
+.aboutright{
+    padding: 20px 40px;
+    border-left: 1px solid #f7f7f7;
+}
+.aboutleft{
+    padding: 20px 40px;
+}
+.about p{
+    font-size: 17px;
+}
+.about span{
+    font-size: 25px;
+    font-weight: bold;
+}
+@media screen and (max-width: 568px){
+   
+    .img img{
+        width: 519px;
+    }
+}

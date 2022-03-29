@@ -1,0 +1,197 @@
+.header{
+    
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 20px 130px;
+}
+.continer{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+.container{
+    margin: 0 auto;
+    position: relative;
+}
+.header img{
+    width: 62px;
+}
+.header input{
+    width: 100%;
+    height: 41px;
+    border: none;
+    border-radius: 7px;
+    padding: 0px 36px;
+    background-color: #f0f0f1;
+}
+input::placeholder{
+    padding: 0 10px;
+}
+.input svg{
+    position: absolute;
+    width: 26px;
+    top: 8px;
+    right: 11px;
+    margin-left: 20px;
+    fill: #4f4f4f;
+    
+}
+.headerRight{
+    display: flex;
+    
+    align-items: center;
+}
+.header button{
+    border-radius: 5px;
+    width: 103px;
+    height: 41px;
+    font-size: 1rem;
+    padding-right: 18px;
+    border: none;
+}
+.headerLeft svg{
+    width: 25px;
+    position: absolute;
+    fill: #4f4f4f;
+    right: 13px;
+    cursor: pointer;
+}
+
+/* .button:hover{
+    background-color: #FA983A;
+    color: #fff;
+} */
+
+.headerLeft{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    
+    height: 60px;
+    background-color: #FA983A;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    
+}
+
+.nav2{
+   
+    padding: 0 111px;
+}
+
+.nav3 .link{
+    color: #4f4f4f;
+    font-weight: bold;
+    
+    
+    font-size: 19px;
+
+}
+
+
+.nav2 > li{
+    
+    padding:15px 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.nav li a {
+    color: #4f4f4f;
+}
+.nav .input{
+    display: none;   
+}
+.nav .serchBox input{
+    
+    width: 100%;
+    height: 41px;
+    border: none;
+    border-radius: 7px;
+    padding: 0px 45px 0 0;
+} 
+.nav .input svg{
+    top: 8px;
+    right: 18px;
+    position: absolute;
+}
+.hambergerMenu{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+    z-index: 95;
+    background-color: #000;
+}
+.hambergerMenu svg{
+    margin-left: 50px;
+    
+} 
+.hvrsweeptoright{
+    display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);position:relative;-webkit-transition-property:color;transition-property:color;-webkit-transition-duration:.3s;transition-duration:.3s}.hvr-sweep-to-right:before{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;bottom:0;background-color: #FA983A; -webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:0 50%;transform-origin:0 50%;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}.hvr-sweep-to-right:active,.hvr-sweep-to-right:focus,.hvr-sweep-to-right:hover{color:#fff}.hvr-sweep-to-right:active:before,.hvr-sweep-to-right:focus:before,.hvr-sweep-to-right:hover:before{-webkit-transform:scaleX(1);transform:scaleX(1)} 
+
+
+@media screen and (max-width: 1012px){
+
+}
+
+@media screen and (max-width: 1050px) {
+    .headerLeft{
+        display: none;
+    }
+    .hambergerMenu{
+        margin: 30px auto;
+        display: block;
+    }
+    .nav ul{
+        display: none;
+    }
+    .nav{
+        width: 100%;
+        height: 80px;
+        padding: 0 30px;
+    }
+    .nav .input{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 14px 15px;
+    }
+    .headerRight .Search{
+        display: none;
+    }
+    .nav .serchBox{
+        
+        display: flex;
+        align-items: center;
+        z-index: 90;
+        flex-direction: row;
+        width: 100%;
+        
+        padding: 4px;    
+    }
+    .nav .serchBox div:nth-child(2){
+        right: 22px;
+        top: 55px;
+    }
+    .nav .serchBox div:nth-child(1){
+        width: 100%;
+        margin-right: 0;
+    }
+}
+@media  screen and (max-width: 825px)   {
+    .header{
+        padding: 20px 50px;
+    }
+    .header img{
+        width: 60px;
+    }
+    
+}

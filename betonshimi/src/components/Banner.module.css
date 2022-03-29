@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    min-height: auto;
+    
+    
+}
+.container img {
+    width: 100%;
+    
+}
+@media screen and (max-width: 568px){
+   
+   
+}

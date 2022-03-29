@@ -1,0 +1,55 @@
+.main{
+    
+    margin: 76px 0;
+}
+.img img{
+    width:100%;
+   
+    
+}
+.img{
+    width: 432px;
+    margin: 60px auto;
+}
+.contactcenter{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+    box-shadow: 6px 10px 40px #e7e7e7,
+    -6px -10px 40px #e7e7e7;
+    margin: 20px auto;
+    
+}
+.contactcenter ul{
+    list-style: outside;
+    flex-direction: column;
+    padding: 20px 43px 20px 0;
+}
+.contactcenter span{
+    padding: 17px 46px;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.contactcenter ul li{
+    margin-bottom: 20px;
+    font-size: 17px
+}
+@media screen and (max-width: 991px){
+    .contactcenter{
+        flex-direction: column-reverse ;
+    }
+    .img{
+        margin: 37px auto;
+    }
+
+
+}
+@media screen and (max-width: 568px){
+   
+    .img{
+        width: 380px;
+    }
+}
